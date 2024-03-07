@@ -24,21 +24,30 @@
           </textarea>
 
         <div class="encrypt-decrypt__content__user-action__buttons">
-          <button onclick="encrypt()" class="encrypt-decrypt__user-action__buttons__msg-action">
+          <button onclick="encryptText()" class="encrypt-decrypt__user-action__buttons__msg-action">
             Criptografar
           </button>
-          <button onclick="decrypt()" class="encrypt-decrypt__user-action__buttons__msg-action">
+          <button
+            onclick="decryptText()"
+            class="encrypt-decrypt__user-action__buttons__msg-action">
             Descriptografar
           </button>
         </div>
       </section>
 
-        <img
-          class="encrypt-decrypt__img-suitcase"
-          src="./images/mysteryBox_closed.png"
-          alt="Imagem de uma maleta fechada"/>
+      <img
+         class="encrypt-decrypt__img-suitcase"
+         src="./images/mysteryBox_closed.png"
+         alt="Imagem de uma maleta fechada"/>
 
-        <p class="encrypt-decrypt__user-output"></p>
+      <section class="encrypt-decrypt__user-output">
+        <p class="encrypt-decrypt__user-output__show-output"></p>
+        <button
+          onclick="copyText()"
+          class="encrypt-decrypt__user-output__button">
+          Copiar
+        </button>
+      </section>
     </main>
 
     <footer class="footer">
