@@ -4,8 +4,8 @@ Text encryptor/decryptor
 
 
 
-##### READEME English version
+##### READEME [English version](https://github.com/thatimoreira/SecretMessage/blob/develop/docs/README-en.md)
 
-##### READEME versão em Português (brasileiro)
+##### READEME [versão em Português (brasileiro)](https://github.com/thatimoreira/SecretMessage/blob/develop/docs/README-pt.md)
 
 
