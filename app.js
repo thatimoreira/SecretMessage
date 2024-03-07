@@ -99,6 +99,4 @@ function decryptText() {
     userOutput.textContent = decryptedText;
 }
 
-function clearTextArea() {}
-
 function copyText() {}
