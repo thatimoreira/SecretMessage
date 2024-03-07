@@ -2,7 +2,7 @@
 
 Text encryptor/decryptor
 
-Made this challenge as an activity of the "Primeiras Páginas Web" ("My First Web Pages") module of the selection process for the [ONE - Oracle Next Education]([ONE - Oracle Next Education | Oracle Brasil](https://www.oracle.com/br/education/oracle-next-education/)) program offered in partnership with [Plataforma Impact](https://www.linkedin.com/company/plataforma-tech/) and [Alura](https://www.alura.com.br/).
+Made this challenge as an activity of the "Primeiras Páginas Web" ("My First Web Pages") module of the selection process for the [ONE - Oracle Next Education](https://www.oracle.com/br/education/oracle-next-education/) program offered in partnership with [Plataforma Impact](https://www.linkedin.com/company/plataforma-tech/) and [Alura](https://www.alura.com.br/).
 
 
 
