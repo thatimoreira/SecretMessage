@@ -37,6 +37,12 @@
           >
             Descriptografar
           </button>
+          <button
+            onclick="clearTextArea()"
+            class="encrypt-decrypt__user-action__buttons__msg-action"
+          >
+            Limpar
+          </button>
         </div>
       </section>
 
@@ -47,7 +53,7 @@
       />
 
       <section class="encrypt-decrypt__user-output">
-        <p class="encrypt-decrypt__user-output__show-output"></p>
+        <p id="user-output" class="encrypt-decrypt__user-output__show-output"></p>
         <button
           onclick="copyText()"
           class="encrypt-decrypt__user-output__button"
