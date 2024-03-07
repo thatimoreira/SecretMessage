@@ -6,6 +6,10 @@ Made this challenge as an activity of the "Primeiras Páginas Web" ("My First We
 
 
 
+
+
+
+
 #### Challenge Rules:
 
 The encryption "keys" we'll use are:
@@ -19,8 +23,10 @@ The encryption "keys" we'll use are:
 - The letter 'o' is converted to "ober";
 
 - The letter 'u' is converted to "ufat".
-  
-  
+
+
+
+
 
 #### Requisitos
 
@@ -36,11 +42,11 @@ The encryption "keys" we'll use are:
 - The page must have fields for entering the text to be encrypted or decrypted, and the user must be able to choose between the two options;
 
 - The result must be displayed on the screen.
-  
-  
+
+
+
+
 
 #### Extras
 
 A button that copies the encrypted/decrypted text to the clipboard - that is, it should have the same functionality as ctrl+C or the "copy" option from  apps menus.
-
-

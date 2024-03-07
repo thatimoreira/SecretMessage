@@ -6,6 +6,8 @@ Desafio realizado como atividade do módulo "Primeiras Páginas Web" do processo
 
 
 
+
+
 #### Regras do Desafio
 
 - As "chaves" de criptografia que utilizaremos são:
@@ -19,8 +21,10 @@ Desafio realizado como atividade do módulo "Primeiras Páginas Web" do processo
 - A letra 'o' é convertida para "ober";
 
 - A letra 'u' é convertida para "ufat".
-  
-  
+
+
+
+
 
 #### Requisitos
 
@@ -36,6 +40,8 @@ Desafio realizado como atividade do módulo "Primeiras Páginas Web" do processo
 - A página deve ter campos para inserção do texto a ser criptografado ou descriptografado, e a pessoa usuária deve poder escolher entre as duas opções;
 
 - O resultado deve ser exibido na tela.
+
+
 
 
 
