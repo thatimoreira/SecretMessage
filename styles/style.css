@@ -4,8 +4,41 @@
   --cor-primaria: #2d1674;
   --cor-secundaria: #fff2ff;
   --cor-terciaria: #703acf;
-  --cor-hover: #9271C2;
+  --cor-hover: #9271c2;
 
   --fonte-primaria: "Krona One", sans-serif;
   --fonte-secundaria: "Montserrat", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* height: 100vh; sets page height  |  vh: viewport height */
+  box-sizing: border-box;
+  background-color: var(--cor-primaria);
+  color: var(--cor-secundaria);
+}
+
+.header {
+  padding: 2% 0% 0% 15%; /* Change values */
+}
+
+.header__menu {
+  display: flex;
+}
+
+.header__menu__page {
+  /* define font-family, weight, size and color */
+  text-decoration: none;
+
+}
+
+.encrypt-decrypt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5% 15%; /* Change values */
 }
