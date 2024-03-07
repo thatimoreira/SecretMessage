@@ -18,13 +18,24 @@
 
     <main class="encrypt-decrypt">
       <section class="encrypt-decrypt__content">
-        <div class="encrypt-decrypt__container">
-          <textarea id="input-text" placeholder="Escreva aqui a mensagem a ser criptografada/descriptografada">
-          <div class="action container__buttons">
-            <button onclick="encrypt()">Criptografar</button>
-            <button onclick="decrypt()">Descriptografar</button>
-          </div>
+        <textarea
+          class="encrypt-decrypt__content__user-input"
+          placeholder="Escreva aqui a mensagem a ser criptografada/descriptografada"
+        >
+        </textarea>
+
+        <div class="action encrypt-decrypt__content__buttons">
+          <button onclick="encrypt()" class="encrypt-decrypt__content__button">
+            Criptografar
+          </button>
+          <button onclick="decrypt()" class="encrypt-decrypt__content__button">
+            Descriptografar
+          </button>
         </div>
+
+        <img src="./images/mysteryBox_closed.png" alt="Imagem de uma maleta fechada" class="encrypt-decrypt__content__img-suitcase"/>
+
+        <p class="encrypt-decrypt__content__user-output"></p>
       </section>
     </main>
 
