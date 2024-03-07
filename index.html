@@ -18,9 +18,12 @@
 
     <main class="encrypt-decrypt">
       <section class="encrypt-decrypt__content">
-        /* text area for user input + img + text encrypted/decrypted*/
         <div class="encrypt-decrypt__container">
-          <textarea id="userInput" placeholder="Escreva aqui a mensagem a ser criptografada/descriptografada">
+          <textarea id="input-text" placeholder="Escreva aqui a mensagem a ser criptografada/descriptografada">
+          <div class="action container__buttons">
+            <button onclick="encrypt()">Criptografar</button>
+            <button onclick="decrypt()">Descriptografar</button>
+          </div>
         </div>
       </section>
     </main>
