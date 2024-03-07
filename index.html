@@ -18,33 +18,40 @@
 
     <main class="encrypt-decrypt">
       <section class="encrypt-decrypt__user-action">
-          <textarea
-            class="encrypt-decrypt__content__user-action__user-input"
-            placeholder="Escreva aqui a mensagem a ser criptografada/descriptografada">
-          </textarea>
+        <textarea
+          class="encrypt-decrypt__content__user-action__user-input"
+          placeholder="Escreva aqui a mensagem a ser criptografada/descriptografada"
+        >
+        </textarea>
 
         <div class="encrypt-decrypt__content__user-action__buttons">
-          <button onclick="encryptText()" class="encrypt-decrypt__user-action__buttons__msg-action">
+          <button
+            onclick="encryptText()"
+            class="encrypt-decrypt__user-action__buttons__msg-action"
+          >
             Criptografar
           </button>
           <button
             onclick="decryptText()"
-            class="encrypt-decrypt__user-action__buttons__msg-action">
+            class="encrypt-decrypt__user-action__buttons__msg-action"
+          >
             Descriptografar
           </button>
         </div>
       </section>
 
       <img
-         class="encrypt-decrypt__img-suitcase"
-         src="./images/mysteryBox_closed.png"
-         alt="Imagem de uma maleta fechada"/>
+        class="encrypt-decrypt__img-suitcase"
+        src="./images/mysteryBox_closed.png"
+        alt="Imagem de uma maleta fechada"
+      />
 
       <section class="encrypt-decrypt__user-output">
         <p class="encrypt-decrypt__user-output__show-output"></p>
         <button
           onclick="copyText()"
-          class="encrypt-decrypt__user-output__button">
+          class="encrypt-decrypt__user-output__button"
+        >
           Copiar
         </button>
       </section>
@@ -53,5 +60,7 @@
     <footer class="footer">
       <p>Desenvolvido por Thatiana Moreira</p>
     </footer>
+
+    <script src="./app.js"></script>
   </body>
 </html>
