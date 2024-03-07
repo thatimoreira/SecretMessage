@@ -2,7 +2,7 @@
 
 Criptografador/descriptografador de textos
 
-Desafio realizado como atividade do módulo "Primeiras Páginas Web" do processo seletivo do programa Oracle One oferecido em parceria com a Plataforma Impact e Alura
+Desafio realizado como atividade do módulo "Primeiras Páginas Web" do processo seletivo do programa [ONE - Oracle Next Education]([ONE - Oracle Next Education | Oracle Brasil](https://www.oracle.com/br/education/oracle-next-education/)) oferecido em parceria com a [Plataforma Impact](https://www.linkedin.com/company/plataforma-tech/) e [Alura](https://www.alura.com.br/).
 
 
 
@@ -21,10 +21,10 @@ Desafio realizado como atividade do módulo "Primeiras Páginas Web" do processo
 - A letra 'o' é convertida para "ober";
 
 - A letra 'u' é convertida para "ufat".
-
-
-
-
+  
+  
+  
+  
 
 #### Requisitos
 
@@ -40,10 +40,10 @@ Desafio realizado como atividade do módulo "Primeiras Páginas Web" do processo
 - A página deve ter campos para inserção do texto a ser criptografado ou descriptografado, e a pessoa usuária deve poder escolher entre as duas opções;
 
 - O resultado deve ser exibido na tela.
-
-
-
-
+  
+  
+  
+  
 
 #### Extras
 
