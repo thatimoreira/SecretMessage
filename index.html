@@ -37,17 +37,21 @@
             Descriptografar
           </button>
         </div>
-
       </section>
       <img
         class="encrypt-decrypt__img-suitcase"
         src="./images/mysteryBox_closed.png"
-        alt="Imagem de uma maleta fechada"/>
+        alt="Imagem de uma maleta fechada"
+      />
 
       <section class="encrypt-decrypt__user-output">
-        <p id="user-output" class="encrypt-decrypt__user-output__show-output"></p>
+        <p
+          id="user-output"
+          class="encrypt-decrypt__user-output__show-output"
+        ></p>
         <button
-          onclick="copyText()"
+          onclick="copyToClipboard()"
+          id="copy-button"
           class="encrypt-decrypt__user-output__button"
         >
           Copiar
