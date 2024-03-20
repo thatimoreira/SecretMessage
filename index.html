@@ -10,45 +10,38 @@
 
   <body>
     <header class="header">
-      <nav class="header__menu">
-        <a class="header__menu__page" href="./index.html">Encrypt/Decrypt</a>
-        <a class="header__menu__page" href="./about.html">About</a>
-      </nav>
+      <img
+        class="header__logo"
+        src="./images/logo-Alura.svg"
+        alt="English: Alura logo, which is the lower case letter 'a' in a dark blue color. | Portuguese: Logo da Alura, que é a letra 'a' minúscula em tom de azul escuro."
+      />
     </header>
 
     <main class="encrypt-decrypt">
-      <section class="encrypt-decrypt__user-action">
+      <section class="encrypt-decrypt__user-input">
         <textarea
-          class="encrypt-decrypt__content__user-action__user-input"
+          class="encrypt-decrypt__content__user-input__text"
           placeholder="Escreva aqui a mensagem a ser criptografada/descriptografada"
         ></textarea>
 
-        <div class="encrypt-decrypt__content__user-action__buttons">
+        <div class="encrypt-decrypt__content__user-input__buttons">
           <button
             onclick="encryptText()"
-            class="encrypt-decrypt__user-action__buttons__msg-action"
+            class="encrypt-decrypt__user-input__buttons__encrypt"
           >
             Criptografar
           </button>
           <button
             onclick="decryptText()"
-            class="encrypt-decrypt__user-action__buttons__msg-action"
+            class="encrypt-decrypt__user-input__buttons__decrypt"
           >
             Descriptografar
           </button>
         </div>
       </section>
-      <img
-        class="encrypt-decrypt__img-suitcase"
-        src="./images/mysteryBox_closed.png"
-        alt="Imagem de uma maleta fechada"
-      />
 
       <section class="encrypt-decrypt__user-output">
-        <p
-          id="user-output"
-          class="encrypt-decrypt__user-output__show-output"
-        ></p>
+        <p id="user-output" class="encrypt-decrypt__user-output__text"></p>
         <button
           onclick="copyToClipboard()"
           id="copy-button"
