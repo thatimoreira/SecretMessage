@@ -1,3 +1,10 @@
+/*function hideMessage() {
+  // Ocultar a imagem, o título e o parágrafo
+  document.querySelector("encrypt-decrypt__user-output__instructions__image-man-diamond").classList.add("hidden");
+  document.querySelector("encrypt-decrypt__user-output__instructions__texts__title").classList.add("hidden");
+  document.querySelector("encrypt-decrypt__user-output__instructions__texts__paragraph").classList.add("hidden");
+}*/
+
 function encryptText() {
   let text = document.querySelector("textarea").value;
 
@@ -11,6 +18,7 @@ function encryptText() {
       errorMessage,
       document.querySelector(".encrypt-decrypt__user-input")
     );
+    /*function hideMessage();*/
     return;
   }
 
@@ -41,6 +49,7 @@ function decryptText() {
       errorMessage,
       document.querySelector(".encrypt-decrypt__user-input")
     );
+    /*function hideMessage();*/
     return;
   }
 
