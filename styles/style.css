@@ -26,7 +26,7 @@
   --button-decrypt: #d8dfe8; /* --gray-200 */
   /*--gray-300:*/
   --font-color-output: #495057; /* gray-400 */
-  --gray-500: #343a40;
+  --font--color-title: #343a40;
 }
 
 * {
@@ -57,49 +57,47 @@ body {
 
 .encrypt-decrypt {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   padding: 5% 15%; /* Change values */
   gap: 24rem;
 }
 
 .encrypt-decrypt__user-input__text {
-  position: absolute;
   resize: none;
   width: 100%;
-  top: 10.5rem;
-  width: 42.5rem;
+  height: 30rem;
   border-radius: 0.44rem;
   border: none;
   background-color: var(--background-page);
   color: var(--font-color-main);
   font-size: 24px;
   font-weight: 600;
+  margin-bottom: 12rem;
   /*left: 15;*/
 }
 
 .encrypt-decrypt__user-input__buttons {
-  position: absolute;
   display: flex;
   flex-direction: row;
   width: 42.5rem;
   height: 4.19rem;
   margin-right: 3rem;
-  bottom: 2.5rem;
+  margin-bottom: 2.5rem;
   gap: 1.5rem;
 }
 
 #encrypt-button {
   color: var(--background-output);
   background: var(--font-color-main);
-  width: 100%;
+  width: 50%;
   border-radius: 1.5rem;
 }
 
 #decrypt-button {
   color: var(--font-color-main);
   background: var(--button-decrypt);
-  width: 100%;
+  width: 50%;
   border-radius: 1.5rem;
 }
 
@@ -112,7 +110,7 @@ body {
   right: 2.5rem;
   left: auto;
   background: var(--background-output);
-  border-radius: 2rem 2rem 2rem 2rem;
+  border-radius: 2rem;
   box-shadow: 0 1.5rem 2rem -0.5rem #00000014;
   padding: 1.25rem; /* Inner margin inside the white rectangle */
   z-index: 1; /* Ensures that the rectangle overlaps the header and footer */
@@ -126,7 +124,7 @@ body {
   position: absolute;
   width: 21rem;
   height: 4.19rem;
-  border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+  border-radius: 1.5rem;
   top: 55.313rem;
   right: 3rem;
 }
@@ -135,6 +133,37 @@ header,
 footer {
   position: relative; /* To maintain the stacking order */
   z-index: 0; /*Places the header and footer below the white rectangle */
+}
+
+.encrypt-decrypt__user-output__instructions {
+  position: absolute;
+  width: 21rem;
+  right: 3.5rem;
+  top: 17.69rem;
+  bottom: 17.69rem;
+  gap: 2rem;
+}
+
+.encrypt-decrypt__user-output__instructions__image-man-diamond {
+  height: 19rem;
+}
+
+.encrypt-decrypt__user-output__instructions__texts__title {
+  height: 3.63rem;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  line-height: 1.8rem;
+  color: var(--font-color-title);
+}
+
+.encrypt-decrypt__user-output__instructions__texts__paragraph {
+  height: 3rem;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.5rem;
+  color: var(--font-color-outputcolor-);
 }
 /*
 .footer {
