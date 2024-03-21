@@ -20,20 +20,20 @@
     <main class="encrypt-decrypt">
       <section class="encrypt-decrypt__user-input">
         <textarea
-          class="encrypt-decrypt__content__user-input__text"
+          class="encrypt-decrypt__user-input__text"
           placeholder="Escreva aqui a mensagem a ser criptografada/descriptografada"
         ></textarea>
 
-        <div class="encrypt-decrypt__content__user-input__buttons">
+        <div class="encrypt-decrypt__user-input__buttons">
           <button
             onclick="encryptText()"
-            class="encrypt-decrypt__user-input__buttons__encrypt"
+            id="encrypt-button"
           >
             Criptografar
           </button>
           <button
             onclick="decryptText()"
-            class="encrypt-decrypt__user-input__buttons__decrypt"
+            id="decrypt-button"
           >
             Descriptografar
           </button>

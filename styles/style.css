@@ -23,7 +23,7 @@
 
   /* Gray */
   /*--gray-100:*/
-  --gray-200: #d8dfe8;
+  --button-decrypt: #d8dfe8; /* --gray-200 */
   /*--gray-300:*/
   --font-color-output: #495057; /* gray-400 */
   --gray-500: #343a40;
@@ -49,8 +49,7 @@ body {
 }
 
 .header__logo {
-  /*text-decoration: none;*/
-  position: absolute;
+  top: 2.5rem;
   width: 7.5rem;
   height: 3rem;
   /*left: 44px;*/
@@ -58,25 +57,45 @@ body {
 
 .encrypt-decrypt {
   display: flex;
-  /*align-items: center;*/
-  /*justify-content: space-between;*/
+  align-items: center;
+  justify-content: space-between;
   padding: 5% 15%; /* Change values */
-  /*gap: 85rem;*/
+  bottom: 4.5rem;
+  gap: 85rem;
 }
-/*
-  .encrypt-decrypt__content {
-    display: flex;
-    flex-direction: row;
-  }*/
 
-.encrypt-decrypt__content__user-input__text {
-  border-radius: 7px;
-  background-color: var(--cor-secundaria);
-  color: var(--cor-hover);
+.encrypt-decrypt__user-input__text {
+  width: 42.5rem;
+  border-radius: 0.44rem;
+  background-color: var(--background-page);
+  color: var(--font-color-main);
   /* define font-famiy */
   font-size: 24px;
   font-weight: 600;
-  box-shadow: 4px 4px 20px 0px rgba(1, 8, 14, 0.15);
+  box-shadow: 0.25rem 0.25rem 1.25rem 0 rgba(1, 8, 14, 0.15);
+}
+
+.encrypt-decrypt__user-input__buttons {
+  display: flex;
+  flex-direction: row;
+  width: 42.5rem;
+  height: 4.19rem;
+  margin-right: 3rem;
+  gap: 1.5rem;
+}
+
+#encrypt-button {
+  color: var(--background-output);
+  background: var(--font-color-main);
+  width: 100%;
+  border-radius: 1.5rem;
+}
+
+#decrypt-button {
+  color: var(--font-color-main);
+  background: var(--button-decrypt);
+  width: 100%;
+  border-radius: 1.5rem;
 }
 
 .encrypt-decrypt__user-output {
@@ -127,10 +146,12 @@ footer {
     Device: tablets
   */
 @media (min-width: 768px) and (max-width: 1024px) {
+  /*usar pxs p/fontes*/
 }
 
 /*
     Device: smartphones
   */
 @media (min-width: 320px) and (max-width: 480px) {
+  /*usar pxs p/fontes*/
 }
