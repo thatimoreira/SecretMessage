@@ -57,30 +57,35 @@ body {
 
 .encrypt-decrypt {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   padding: 5% 15%; /* Change values */
-  bottom: 4.5rem;
-  gap: 85rem;
+  gap: 24rem;
 }
 
 .encrypt-decrypt__user-input__text {
+  position: absolute;
+  resize: none;
+  width: 100%;
+  top: 10.5rem;
   width: 42.5rem;
   border-radius: 0.44rem;
+  border: none;
   background-color: var(--background-page);
   color: var(--font-color-main);
-  /* define font-famiy */
   font-size: 24px;
   font-weight: 600;
-  box-shadow: 0.25rem 0.25rem 1.25rem 0 rgba(1, 8, 14, 0.15);
+  /*left: 15;*/
 }
 
 .encrypt-decrypt__user-input__buttons {
+  position: absolute;
   display: flex;
   flex-direction: row;
   width: 42.5rem;
   height: 4.19rem;
   margin-right: 3rem;
+  bottom: 2.5rem;
   gap: 1.5rem;
 }
 
@@ -108,7 +113,7 @@ body {
   left: auto;
   background: var(--background-output);
   border-radius: 2rem 2rem 2rem 2rem;
-  box-shadow: 0px 24px 32px -8px #00000014;
+  box-shadow: 0 1.5rem 2rem -0.5rem #00000014;
   padding: 1.25rem; /* Inner margin inside the white rectangle */
   z-index: 1; /* Ensures that the rectangle overlaps the header and footer */
 }
@@ -131,16 +136,15 @@ footer {
   position: relative; /* To maintain the stacking order */
   z-index: 0; /*Places the header and footer below the white rectangle */
 }
-
+/*
 .footer {
-  color: var(--cor-primaria); /* Change color */
+  color: var(--cor-primaria);
   background-color: var(--cor-terciaria);
   text-align: center;
-  /* Define font-family */
   font-weight: 400;
   font-size: 1.5rem;
   padding: 1.48rem;
-}
+}*/
 
 /*
     Device: tablets
